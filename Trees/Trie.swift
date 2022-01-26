@@ -67,7 +67,7 @@ class Trie {
         
         var i = 0
         while i < chars.count, let child = currentNode.children[chars[i]] {
-            i += 1 // then move on up
+            i += 1
             currentNode = child
         }
         

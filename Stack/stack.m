@@ -36,7 +36,7 @@
 }
 
 - (id)pop {
-    NSNumber *val = [self.arr lastObject];
+    id val = [self.arr lastObject];
     [self.arr removeLastObject];
     
     return val;
