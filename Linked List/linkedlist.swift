@@ -24,7 +24,6 @@ class LinkedListNode<T> {
 class LinkedList<T> {
     typealias Node = LinkedListNode<T>
     
-    // MARK: - Properties
     private var head: Node?
     
     var isEmpty: Bool {

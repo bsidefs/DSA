@@ -24,11 +24,11 @@
 }
 
 - (NSUInteger)count {
-    return [self.arr count];
+    return self.arr.count;
 }
 
 - (BOOL)isEmpty {
-    return [self.arr count] == 0;
+    return self.arr.count == 0;
 }
 
 - (void)push:(id)val {
